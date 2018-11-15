@@ -1,0 +1,3 @@
+
+:: JSON Comparator Service ::
+:: Spring Boot :: ${spring-boot.formatted-version}

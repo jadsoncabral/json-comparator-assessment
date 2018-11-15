@@ -1,0 +1,20 @@
+spring:
+    profiles: local
+    main:
+        banner-mode: console
+    datasource:
+        url: jdbc:hsqldb:mem:testdb;sql.syntax_ora=true
+        username: sa
+        password: sa
+        driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    jpa:
+        generate-ddl: false
+        show-sql: true
+        hibernate:
+            ddl-auto: none
+
+logging:
+    config: classpath:logback.xml
+
+banner:
+    location: classpath:banner-local.txt

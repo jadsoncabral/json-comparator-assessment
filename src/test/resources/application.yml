@@ -1,0 +1,12 @@
+spring:
+    profiles: local
+    main:
+        banner-mode: console
+    jpa:
+        generate-ddl: false
+        show-sql: true
+        hibernate:
+            ddl-auto: none
+
+logging:
+    config: classpath:logback.xml
